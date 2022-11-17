@@ -1,19 +1,19 @@
- # import library\par
-import math, random\par
-# function to generate OTP\par
-def generateOTP() :\par
-    # Declare a digits variable \par
-    # which stores all digits\par
-    digits = "0123456789"\par
-    OTP = ""\par
-   # length of password can be changed\par
-   # by changing value in range\par
-    for i in range(4) :\par
-        OTP += digits[math.floor(random.random() * 10)]\par
-    return OTP\par
-# Driver code\par
-if __name__ == "__main__" :\par
+ # import library
+import math, random
+# function to generate OTP
+def generateOTP() :
+    # Declare a digits variable 
+    # which stores all digits
+    digits = "0123456789"
+    OTP = ""
+   # length of password can be changed
+   # by changing value in range
+    for i in range(4) :
+        OTP += digits[math.floor(random.random() * 10)]
+    return OTP
+# Driver code
+if __name__ == "__main__" :
 
-\pard\sa200\sl240\slmult1     print("OTP of 4 digits:", generateOTP())\par
+    print("OTP of 4 digits:", generateOTP())
 }
-�
+
